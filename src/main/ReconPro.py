@@ -35,7 +35,7 @@ except ImportError:
 class RealNetworkToolkit:
     def __init__(self, root):
         self.root = root
-        self.root.title("🔍 NETWORK SECURITY TOOLKIT - REAL SCANNER")
+        self.root.title("🔍 NETWORK SECURITY TOOLKIT - RECONPRO")
         self.root.geometry("1400x900")
         self.root.configure(bg='#1e1e1e')
         
@@ -1221,7 +1221,7 @@ class RealNetworkToolkit:
     def show_docs(self):
         """Show documentation"""
         docs = """
-        NETWORK SECURITY TOOLKIT - DOCUMENTATION
+        RECON-PRO - DOCUMENTATION
         
         QUICK START:
         1. Add targets (IPs or domains)
@@ -1249,8 +1249,8 @@ class RealNetworkToolkit:
     def show_about(self):
         """Show about dialog"""
         about = """
-        NETWORK SECURITY TOOLKIT
-        Version 1.0
+        RECON-PRO
+        Version 2.0
         
         A comprehensive network scanning and monitoring tool
         for authorized security testing.
@@ -1262,7 +1262,7 @@ class RealNetworkToolkit:
         • Vulnerability assessment
         • Packet capture and analysis
         
-        Created with Python, Tkinter, Scapy, and Nmap
+        Created BY ATHEX BLACK HAT
         
         FOR AUTHORIZED USE ONLY
         """
