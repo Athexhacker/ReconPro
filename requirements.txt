@@ -4,4 +4,4 @@ requests
 ping3
 whois
 dnspython
-
+python-nmap
